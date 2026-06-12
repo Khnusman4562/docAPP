@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@theme{
-  --default-font-family:"Rubik", sans-serif; 
-}
 @import "tailwindcss";
+@theme{
+    --font-ole: 'Ole', cursive, "sans-serif";
+    --default-font-family: "Rubik", serif;
+}
 
 
