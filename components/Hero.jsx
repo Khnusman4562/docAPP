@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 
 export default function Hero() {
     return (
         <>
-        <div className="px-8 py-4 border-b border-gray-100 flex lg:hidden justify-between">
-           <Image src={"/Images/menus.png"} alt="menu" width={30} height={30} />
-           <button className="bg-[#4285F4] text-white py-2 px-4">Download</button>
-        </div>
+            <MobileNav />
+        
         <div className="flex h-70 lg:h-screen">
             <div className="flex  flex-col justify-center lg:justify-between">
                 <div className="w-[80vw]  p-8 hidden lg:flex  items-center justify-between px-10">
