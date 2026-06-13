@@ -5,11 +5,11 @@ import Third from "../../components/Third";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20 overflow-x-hidden" >
+    <div className="flex flex-col gap-20" >
       <Hero />
       <Second />
-      <Third />
-      <Fourth/>
+       <Third />
+     <Fourth/>
     </div>
   );
 }
