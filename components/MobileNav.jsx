@@ -24,7 +24,6 @@ export default function MobileNav() {
                 <div className="flex flex-col gap-6 mt-6 p-6">
                     <Link href={"/"} className="border-b transition-colors duration-300 cursor-pointer">Home</Link>
                     <Link href={"/features"} className="border-b transition-colors duration-300 cursor-pointer">Features</Link>
-                    <Link href={"/support"} className="border-b transition-colors duration-300 cursor-pointer">Support</Link>
                     <Link href={"/contact"} className="border-b transition-colors duration-300 cursor-pointer">Contact</Link>
                 </div>
 

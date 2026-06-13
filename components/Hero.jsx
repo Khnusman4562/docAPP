@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import MobileNav from "./MobileNav";
+import NavLinks from "./NavLinks";
 
 export default function Hero() {
     return (
@@ -13,12 +13,9 @@ export default function Hero() {
                     <div>
                         <Image src={"/Images/docLogo.png"} alt="logo" width={180} height={100}></Image>
                     </div>
-                    <div className="flex gap-8">
-                        <Link href="/home" className="hover:text-red-700 hover:underline">Home</Link>
-                        <Link href="/home" className="hover:text-red-700 hover:underline">Features</Link>
-                        <Link href="/home" className="hover:text-red-700 hover:underline">Support</Link>
-                        <Link href="/home" className="hover:text-red-700 hover:underline">Contact Us</Link>
-                    </div>
+                    
+
+                <NavLinks />
 
                 </div>
                 <div className="p-8 flex flex-col gap-4">
