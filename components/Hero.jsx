@@ -14,10 +14,10 @@ export default function Hero() {
                         <Image src={"/Images/docLogo.png"} alt="logo" width={180} height={100}></Image>
                     </div>
                     <div className="flex gap-8">
-                        <Link href="/home">Home</Link>
-                        <Link href="/home">Features</Link>
-                        <Link href="/home">Support</Link>
-                        <Link href="/home">Contact Us</Link>
+                        <Link href="/home" className="hover:text-red-700 hover:underline">Home</Link>
+                        <Link href="/home" className="hover:text-red-700 hover:underline">Features</Link>
+                        <Link href="/home" className="hover:text-red-700 hover:underline">Support</Link>
+                        <Link href="/home" className="hover:text-red-700 hover:underline">Contact Us</Link>
                     </div>
 
                 </div>

@@ -4,5 +4,10 @@
     --font-ole: 'Ole', cursive, "sans-serif";
     --default-font-family: "Rubik", serif;
 }
-
+button:hover {
+  border: 1px solid white;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
 
